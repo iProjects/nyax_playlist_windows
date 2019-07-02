@@ -72,10 +72,19 @@
     <Compile Include="create_playlist.Designer.cs">
       <DependentUpon>create_playlist.cs</DependentUpon>
     </Compile>
+    <Compile Include="msgboxform.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="msgboxform.designer.cs">
+      <DependentUpon>msgboxform.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="create_playlist.resx">
       <DependentUpon>create_playlist.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="msgboxform.resx">
+      <DependentUpon>msgboxform.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
